@@ -1,0 +1,75 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Objektiv';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ObjektivMk1-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Objektiv';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ObjektivMk1-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Objektiv';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ObjektivMk1-XBold.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Objektiv';
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  background: transparent;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1317;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+:root {
+  --color1: #0F001A;
+  --color2: #260041;
+  --color3: #FFFFFF;
+  --color4: #4A99D3;
+  --color5: #D81B60;
+  --color6: #4a99d333;
+  --color7: #4b008142;
+  --color8: #4a99d300;
+  --color9: #4a99d31a;
+}
+
+/*  */
